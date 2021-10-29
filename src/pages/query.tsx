@@ -10,7 +10,7 @@ export default function Query() {
       <Head>
         <title>Query | vvvvoid main</title>
       </Head>
-      <Container height="100%">
+      <Container maxW="container.xl">
         <Box>
           <chakra.h1 color="gray">{id} page</chakra.h1>
         </Box>

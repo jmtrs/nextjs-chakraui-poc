@@ -7,8 +7,8 @@ export default function About() {
       <Head>
         <title>About | vvvvoid main</title>
       </Head>
-      <Container>
-        <Box>
+      <Container maxW="container.xl">
+        <Box marginX={4}>
           <Heading mb={4}>
             Modern online and offline payments for Africa
           </Heading>
