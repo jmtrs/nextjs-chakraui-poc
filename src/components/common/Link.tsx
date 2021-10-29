@@ -1,5 +1,5 @@
-import React, { ReactNode } from 'react'
 import NextLink, { LinkProps as NextLinkProps } from 'next/link'
+import { ReactNode } from 'react'
 import {
   Link as ChackraLink,
   LinkProps as ChackraLinkProps,

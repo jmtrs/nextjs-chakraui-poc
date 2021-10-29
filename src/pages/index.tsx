@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import { Box, chakra, Container } from '@chakra-ui/react'
 import Link from '@/components/common/Link'
+import { Box, chakra, Container } from '@chakra-ui/react'
 
 export default function Home() {
   return (

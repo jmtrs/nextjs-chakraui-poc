@@ -1,4 +1,3 @@
-import React from 'react'
 import { Center, Text, Box } from '@chakra-ui/react'
 
 export type FooterProps = {

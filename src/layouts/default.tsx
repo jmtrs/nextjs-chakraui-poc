@@ -1,7 +1,6 @@
-import React from 'react'
 import { chakra } from '@chakra-ui/react'
-import { Header } from '@/components/common/Header'
 import { Footer } from '@/components/common/Footer'
+import { Header } from '@/components/common/Header'
 
 export default function DefaultLayout({ children }: any) {
   const headerHeight = 16

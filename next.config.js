@@ -1,12 +1,12 @@
 // /* eslint-disable @typescript-eslint/no-var-requires */
 // /* eslint-disable @typescript-eslint/no-unused-vars */
 // /* eslint-disable @typescript-eslint/explicit-function-return-type */
-const withPlugins = require('next-compose-plugins');
-const optimizedImages = require('next-optimized-images');
-const repositoryName = 'nextjs-chakraui-poc';
+const withPlugins = require('next-compose-plugins')
+const optimizedImages = require('next-optimized-images')
+const repositoryName = 'nextjs-chakraui-poc'
 const nextConfig = {
-  webpack: (config, options) => {
-    return config;
+  webpack: (config) => {
+    return config
   },
   reactStrictMode: true,
   assetPrefix: process.env.GITHUB_ACTIONS ? `/${repositoryName}` : '',
@@ -22,7 +22,7 @@ const nextConfig = {
   images: {
     disableStaticImages: true,
   },
-};
+}
 
 const config = withPlugins(
   [
@@ -33,7 +33,7 @@ const config = withPlugins(
       },
     ],
   ],
-  nextConfig
-);
+  nextConfig,
+)
 
-module.exports = config;
+module.exports = config
