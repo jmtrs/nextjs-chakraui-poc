@@ -3,7 +3,7 @@
 // /* eslint-disable @typescript-eslint/explicit-function-return-type */
 const withPlugins = require('next-compose-plugins');
 const optimizedImages = require('next-optimized-images');
-const repositoryName = 'nextjs-githubpages-template';
+const repositoryName = 'nextjs-chakraui-poc';
 const nextConfig = {
   webpack: (config, options) => {
     return config;
