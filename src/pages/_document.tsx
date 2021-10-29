@@ -1,7 +1,7 @@
-import { ColorModeScript } from '@chakra-ui/react';
-import Document, { Html, Head, Main, NextScript } from 'next/document';
-import publicAsset from '@/lib/publicAssetPath';
-import theme from '@/theme';
+import { ColorModeScript } from '@chakra-ui/react'
+import Document, { Html, Head, Main, NextScript } from 'next/document'
+import publicAsset from '@/lib/publicAssetPath'
+import theme from '@/theme'
 
 class MyDocument extends Document {
   render() {
@@ -21,8 +21,8 @@ class MyDocument extends Document {
           <NextScript />
         </body>
       </Html>
-    );
+    )
   }
 }
 
-export default MyDocument;
+export default MyDocument

@@ -1,6 +1,6 @@
-import Head from 'next/head';
-import { Box, chakra, Container } from '@chakra-ui/react';
-import Link from '@/components/common/Link';
+import Head from 'next/head'
+import { Box, chakra, Container } from '@chakra-ui/react'
+import Link from '@/components/common/Link'
 
 export default function Home() {
   return (
@@ -22,5 +22,5 @@ export default function Home() {
         </Container>
       </>
     </>
-  );
+  )
 }

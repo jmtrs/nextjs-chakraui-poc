@@ -1,9 +1,9 @@
-import React from 'react';
-import { Center, Text, Box } from '@chakra-ui/react';
+import React from 'react'
+import { Center, Text, Box } from '@chakra-ui/react'
 
 export type FooterProps = {
-  height: number;
-};
+  height: number
+}
 
 export const Footer = ({ ...props }: FooterProps) => {
   return (
@@ -20,7 +20,7 @@ export const Footer = ({ ...props }: FooterProps) => {
         <Text>vvvvoid main</Text>
       </Center>
     </Box>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

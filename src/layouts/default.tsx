@@ -1,11 +1,11 @@
-import React from 'react';
-import { chakra } from '@chakra-ui/react';
-import { Header } from '@/components/common/Header';
-import { Footer } from '@/components/common/Footer';
+import React from 'react'
+import { chakra } from '@chakra-ui/react'
+import { Header } from '@/components/common/Header'
+import { Footer } from '@/components/common/Footer'
 
 export default function DefaultLayout({ children }: any) {
-  const headerHeight = 16;
-  const footerHeight = 8;
+  const headerHeight = 16
+  const footerHeight = 8
   return (
     <>
       <Header height={headerHeight} />
@@ -14,5 +14,5 @@ export default function DefaultLayout({ children }: any) {
       </chakra.main>
       <Footer height={footerHeight} />
     </>
-  );
+  )
 }

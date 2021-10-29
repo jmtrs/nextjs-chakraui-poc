@@ -1,10 +1,10 @@
-import Head from 'next/head';
-import { Box, chakra, Container } from '@chakra-ui/react';
-import { useRouter } from 'next/router';
+import Head from 'next/head'
+import { Box, chakra, Container } from '@chakra-ui/react'
+import { useRouter } from 'next/router'
 
 export default function Query() {
-  const router = useRouter();
-  const { id } = router.query;
+  const router = useRouter()
+  const { id } = router.query
   return (
     <>
       <Head>
@@ -16,5 +16,5 @@ export default function Query() {
         </Box>
       </Container>
     </>
-  );
+  )
 }

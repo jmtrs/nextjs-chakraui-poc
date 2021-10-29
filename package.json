@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 4000",
     "build": "next build && next export",
     "start": "serve out",
     "lint": "next lint",
@@ -13,14 +13,14 @@
   "dependencies": {
     "@chakra-ui/icons": "^1.0.15",
     "@chakra-ui/react": "^1.6.9",
-    "@emotion/react": "^11.4.1",
+    "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
     "extracted-loader": "^1.0.7",
     "file-loader": "^6.2.0",
-    "framer-motion": "^4.1.17",
+    "framer-motion": "^5.0.0",
     "ignore-loader": "^0.1.2",
     "img-loader": "^4.0.0",
-    "next": "11.1.2",
+    "next": "12.0.1",
     "next-compose-plugins": "^2.2.1",
     "next-optimized-images": "^2.6.2",
     "react": "17.0.2",
@@ -30,10 +30,12 @@
   "devDependencies": {
     "@types/node": "^16.10.3",
     "@types/react": "^17.0.27",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
     "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2",
+    "eslint-config-next": "^12.0.1",
+    "eslint-config-prettier": "^8.3.0",
     "prettier": "2.4.1",
     "serve": "^12.0.1",
-    "typescript": "^4.4.3"
+    "typescript": "^4.4.4"
   }
 }

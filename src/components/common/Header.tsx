@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import {
   Flex,
   Heading,
@@ -10,18 +10,18 @@ import {
   DrawerContent,
   DrawerHeader,
   DrawerBody,
-} from '@chakra-ui/react';
-import Link from '@/components/common/Link';
-import { IconButton, useColorMode, useDisclosure } from '@chakra-ui/react';
-import { MoonIcon, SunIcon, HamburgerIcon } from '@chakra-ui/icons';
+} from '@chakra-ui/react'
+import Link from '@/components/common/Link'
+import { IconButton, useColorMode, useDisclosure } from '@chakra-ui/react'
+import { MoonIcon, SunIcon, HamburgerIcon } from '@chakra-ui/icons'
 
 export type HeaderProps = {
-  height: number;
-};
+  height: number
+}
 
 export const Header = ({ ...props }: HeaderProps) => {
-  const { colorMode, toggleColorMode } = useColorMode();
-  const { isOpen, onOpen, onClose } = useDisclosure();
+  const { colorMode, toggleColorMode } = useColorMode()
+  const { isOpen, onOpen, onClose } = useDisclosure()
 
   return (
     <>
@@ -70,7 +70,7 @@ export const Header = ({ ...props }: HeaderProps) => {
         </DrawerContent>
       </Drawer>
     </>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

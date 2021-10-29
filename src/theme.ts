@@ -1,9 +1,9 @@
-import { extendTheme, ThemeConfig } from '@chakra-ui/react';
-import { mode } from '@chakra-ui/theme-tools';
+import { extendTheme, ThemeConfig } from '@chakra-ui/react'
+import { mode } from '@chakra-ui/theme-tools'
 
 const config: ThemeConfig = {
   useSystemColorMode: true,
-};
+}
 
 const theme = extendTheme({
   config,
@@ -41,6 +41,6 @@ const theme = extendTheme({
     Button: { baseStyle: { _focus: { boxShadow: 'none' } } },
     Link: { baseStyle: { _focus: { boxShadow: 'none' } } },
   },
-});
+})
 
-export default theme;
+export default theme

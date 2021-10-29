@@ -1,5 +1,5 @@
-import Head from 'next/head';
-import { Box, chakra, Container } from '@chakra-ui/react';
+import Head from 'next/head'
+import { Box, chakra, Container } from '@chakra-ui/react'
 
 export default function About() {
   return (
@@ -19,5 +19,5 @@ export default function About() {
         </Box>
       </Container>
     </>
-  );
+  )
 }
