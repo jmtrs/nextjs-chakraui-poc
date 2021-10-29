@@ -10,7 +10,6 @@ Preinnstalled stuffs.
 - eslint
 - prettier
 - chakra-ui
-- GoogleFont (Noto Sans JP)
 - Fixed Header / Footer Layout.
 
 ## Prepare

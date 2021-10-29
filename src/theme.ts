@@ -8,8 +8,9 @@ const config: ThemeConfig = {
 const theme = extendTheme({
   config,
   fonts: {
-    heading: 'Noto Sans JP',
-    body: 'Noto Sans JP',
+    body: 'system-ui, sans-serif',
+    heading: 'system-ui, sans-serif',
+    mono: 'Menlo, monospace',
   },
   styles: {
     global: (props: any) => ({
@@ -19,18 +20,18 @@ const theme = extendTheme({
       body: {
         height: '100%',
         fontFamily: 'body',
-        color: mode('gray.800', 'whiteAlpha.900')(props),
-        bg: mode('white', 'gray.800')(props),
+        color: mode('gray.900', 'whiteAlpha.900')(props),
+        bg: mode('white', 'gray.900')(props),
       },
       header: {
-        color: mode('gray.800', 'whiteAlpha.900')(props),
-        bg: mode('white', 'gray.800')(props),
+        color: mode('gray.900', 'whiteAlpha.900')(props),
+        bg: mode('white', 'gray.900')(props),
         transitionProperty: 'background-color',
         transitionDuration: 'normal',
       },
       footer: {
-        color: mode('gray.800', 'whiteAlpha.900')(props),
-        bg: mode('white', 'gray.800')(props),
+        color: mode('gray.900', 'whiteAlpha.900')(props),
+        bg: mode('white', 'gray.900')(props),
         transitionProperty: 'background-color',
         transitionDuration: 'normal',
       },
@@ -38,7 +39,7 @@ const theme = extendTheme({
   },
   components: {
     // https://medium.com/@keeganfamouss/accessibility-on-demand-with-chakra-ui-and-focus-visible-19413b1bc6f9
-    Button: { baseStyle: { _focus: { boxShadow: 'none' } } },
+    Button: { baseStyle: { rounded: 'none', _focus: { boxShadow: 'none' } } },
     Link: { baseStyle: { _focus: { boxShadow: 'none' } } },
   },
 })

@@ -36,7 +36,7 @@ export const Header = ({ ...props }: HeaderProps) => {
       >
         <Box>
           <Link href="/">
-            <Heading>vvvvoid main</Heading>
+            <Heading>LOGO</Heading>
           </Link>
         </Box>
         <Spacer />

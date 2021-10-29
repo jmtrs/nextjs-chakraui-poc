@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Box, chakra, Container } from '@chakra-ui/react'
+import { Box, Button, Container, Heading, Text } from '@chakra-ui/react'
 
 export default function About() {
   return (
@@ -9,13 +9,16 @@ export default function About() {
       </Head>
       <Container>
         <Box>
-          <chakra.h1 color="gray">This is About</chakra.h1>
-        </Box>
-        <Box>
-          <chakra.h1 color="gray">This is About</chakra.h1>
-        </Box>
-        <Box>
-          <chakra.h1 color="gray">This is About</chakra.h1>
+          <Heading mb={4}>
+            Modern online and offline payments for Africa
+          </Heading>
+          <Text fontSize="xl">
+            Paystack helps businesses in Africa get paid by anyone, anywhere in
+            the world
+          </Text>
+          <Button size="lg" colorScheme="green" mt="24px">
+            Create a free account
+          </Button>
         </Box>
       </Container>
     </>

@@ -16,7 +16,7 @@ export const Footer = ({ ...props }: FooterProps) => {
       height={props.height}
     >
       <Center height="100%">
-        <Text>vvvvoid main</Text>
+        <Text>FOOTER</Text>
       </Center>
     </Box>
   )
