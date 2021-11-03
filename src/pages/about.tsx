@@ -7,7 +7,7 @@ export default function About() {
       <Head>
         <title>About | vvvvoid main</title>
       </Head>
-      <Container maxW="container.xl">
+      <Container>
         <Box marginX={4}>
           <Heading mb={4}>
             Modern online and offline payments for Africa
@@ -16,7 +16,7 @@ export default function About() {
             Paystack helps businesses in Africa get paid by anyone, anywhere in
             the world
           </Text>
-          <Button size="lg" colorScheme="green" mt="24px">
+          <Button size="lg" colorScheme="black" variant="outline" mt="24px">
             Create a free account
           </Button>
         </Box>

@@ -9,8 +9,8 @@ export default function Home() {
         <title>Home Page | @jmtrs</title>
       </Head>
       <>
-        <Container maxW="container.xl">
-          <Box marginX={4} mt={1}>
+        <Container>
+          <Box marginX={4}>
             <Box>
               <chakra.h1 color="gray">Hello World!</chakra.h1>
             </Box>

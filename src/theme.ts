@@ -38,9 +38,30 @@ const theme = extendTheme({
     }),
   },
   components: {
-    // https://medium.com/@keeganfamouss/accessibility-on-demand-with-chakra-ui-and-focus-visible-19413b1bc6f9
-    Button: { baseStyle: { rounded: 'none', _focus: { boxShadow: 'none' } } },
+    Button: {
+      baseStyle: {
+        rounded: 'none',
+        _focus: { boxShadow: 'none' },
+      },
+      variants: {
+        outline: {
+          border: '2px solid',
+        },
+      },
+    },
     Link: { baseStyle: { _focus: { boxShadow: 'none' } } },
+    Container: {
+      sizes: {
+        myCustomSize: {
+          maxW: '100%',
+          marginTop: '2rem',
+        },
+      },
+
+      defaultProps: {
+        size: 'myCustomSize',
+      },
+    },
   },
 })
 
