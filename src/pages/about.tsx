@@ -5,7 +5,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About | vvvvoid main</title>
+        <title>About | @jmtrs</title>
       </Head>
       <Container>
         <Box marginX={4}>

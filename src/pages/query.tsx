@@ -8,7 +8,7 @@ export default function Query() {
   return (
     <>
       <Head>
-        <title>Query | vvvvoid main</title>
+        <title>Query | @jmtrs</title>
       </Head>
       <Container maxW="container.xl">
         <Box>
